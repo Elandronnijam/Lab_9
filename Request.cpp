@@ -34,12 +34,12 @@ int request()
 
     //6JIOK IIEPE3AIIYCKA
 
-    int retart_request = 0;
+    int restart_request = 0;
     std::cout << "Enter 1 to restart, any other number to close: ";
-    std::cin >> retart_request;
-    if (retart_request == 1)
+    std::cin >> restart_request;
+    if (restart_request == 1)
     {
         std::cout << std::endl << "loading..." << std::endl << std::endl;
     }
-    return retart_request;
+    return restart_request;
 }
